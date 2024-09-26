@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    
+    inteiro seg_idade, ano, dias, horas, minutos, idade
+    real idade_mercurio, per_orb_mercurio
+    
+    seg_idade = 977000000
+    ano = 365
+    dias = 24
+    horas = 60
+    minutos = 60
+    per_orb_mercurio = 0.2408467
+    idade = seg_idade/(minutos*horas*dias*ano)
+    idade_mercurio = idade/per_orb_mercurio
+
+    escreva("Sua idade é de ", idade, " anos. \n")
+    escreva("Em Mercúrio, você teria ", idade_mercurio, " anos!")
+  
+  }
+}
